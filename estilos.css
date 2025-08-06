@@ -21,7 +21,7 @@ input[type="date"] {
 }
 
 div.RegistroComida textarea{
-    width: 150px;
+    width: 200px;
     padding: 10px;
     border-radius: 5px;
     height: 200px;
@@ -46,7 +46,7 @@ textarea {
 
 div.RegistroComida {
     border: 1px solid #32CD32;
-    width: 200px;
+    width: 270px;
     padding: 10px;
     border-radius: 5px;
     margin-bottom: 20px;
@@ -88,4 +88,5 @@ div.iconos-animo{
 .iconos-animo input[type="radio"]:checked ~ .normal {
     display: none;
 }
+
 /* ...existing code... */
