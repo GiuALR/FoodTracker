@@ -1,0 +1,90 @@
+body{
+    background-color: rgb(223, 255, 255);
+    color: #000080;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    align-content: center;
+    min-height: 100vh; /* Asegura que ocupe toda la altura de la ventana */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h4{
+    margin-bottom: 2px;
+}
+
+input[type="date"] {
+    border: 0;
+    background-color: transparent;
+}
+
+div.RegistroComida textarea{
+    width: 150px;
+    padding: 10px;
+    border-radius: 5px;
+    height: 200px;
+    margin-bottom: 20px;
+    resize: none;
+    overflow: auto;
+}
+
+textarea {
+    background-color: transparent;
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #00FF7F;
+    border-radius: 5px;
+    height: 25px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    resize: none;
+    overflow: auto;
+    color: #2F4F4F;
+}
+
+div.RegistroComida {
+    border: 1px solid #32CD32;
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    align-content: center;
+    align-items: center;
+}
+
+div.iconos-animo{
+    display: flex;
+    margin-top: 20px;
+    
+}
+/* ...existing code... */
+.iconos-animo label {
+    cursor: pointer;
+    margin: 0 8px;
+}
+
+.iconos-animo img {
+    fill: #2F4F4F;
+    margin-top: -40px;
+    width: 170%; 
+    height: auto;  
+    transition: transform 0.2s;
+}
+
+.iconos-animo input[type="radio"] {
+    display: none;
+}
+
+.iconos-animo .seleccionado {
+    display: none;
+}
+
+.iconos-animo input[type="radio"]:checked ~ .seleccionado {
+    display: inline;
+}
+
+.iconos-animo input[type="radio"]:checked ~ .normal {
+    display: none;
+}
+/* ...existing code... */
