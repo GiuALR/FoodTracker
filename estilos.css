@@ -18,7 +18,6 @@ h4{
 input[type="date"] {
     border: 0;
     background-color: transparent;
-    text-decoration: underline;
 }
 
 div.RegistroComida textarea{
