@@ -20,7 +20,7 @@ input[type="date"] {
 }
 
 div.RegistroComida textarea{
-    width: 340px;
+    width: 250px;
     padding: 10px;
     border-radius: 5px;
     height: 100px;
@@ -45,7 +45,7 @@ textarea {
 
 div.RegistroComida {
     border: 1px solid #32CD32;
-    width: 400px;
+    width: 300px;
     padding: 10px;
     border-radius: 5px;
     margin-bottom: 20px;
