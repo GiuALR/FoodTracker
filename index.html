@@ -1,76 +1,64 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos.css">
-    <title>EL GRAN Y SUPREMO TÍTULO</title>
-
-    <script src="pruebajs.js">
-        import Particles from './Particles';
-
-<div style={{ width: '100%', height: '600px', position: 'relative' }}>
-  <Particles
-    particleColors={['#ffffff', '#ffffff']}
-    particleCount={200}
-    particleSpread={10}
-    speed={0.1}
-    particleBaseSize={100}
-    moveParticlesOnHover={true}
-    alphaParticles={false}
-    disableRotation={false}
-  />
-</div>
-    </script>
+    <title>Registro</title>
 </head>
-
 <body>
-<h1>qupronto</h1> 
-<h6> qhdp </h6>
-<p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Reiciendis
-nesciunt<br> nostrum quas <strong>autem</strong>, quisquam, numquam, molestiae saepe
-quis eius ab corrupti eos iure dolore itaque odit eveniet. Laboriosam,
-vel placeat.</p>
-<hr>
-<p>En este párrafo, <strong>estas palabras
-son de gran importancia</strong> y <em>éstas
-están enfatizadas,</em> y se muestran en
-negrita e itálicas, respectivamente.</p>
-<ol type="a">
-<li> hahaha </li>
-<li> Ítem 2 </li>
-<li> oh </li>
-</ol>
-<ul style="background-color: rgb(213, 0, 163);color: rgb(250, 165, 240);">
-<li> Ítem 1 </li>
-<li> mtt </li>
-<li> Ítem 3 </li>
-</ul>
+    <h1>Diario de alimentación</h1>
+    
+    <div class="RegistroComida">
+        <h3>Comida del <input type="date"></h3>
+        <textarea placeholder="Hoy comí..." id="comida"></textarea>
+    </div>
+    
+    <h4>¿Cómo te sentiste hoy?</h4>
 
-<footer><address>ggg@giumails.at</address></footer>
+    <div class="iconos-animo">
+        
+    <label title="Muy feliz">
+        <input type="radio" name="animo" id="muyFeliz" value="muyFeliz">
+        <span class="normal"><img src="img/emoji-laughing.svg" alt="Muy feliz"></span>
+        <span class="seleccionado"><img src="img/emoji-laughing-fill.svg" alt="Muy feliz seleccionado"></span>
+    </label>
+    <label title="Feliz">
+        <input type="radio" name="animo" id="feliz" value="feliz">
+        <span class="normal"><img src="img/emoji-smile.svg" alt="Feliz"></span>
+        <span class="seleccionado"><img src="img/emoji-smile-fill.svg" alt="Feliz seleccionado"></span>
+    </label>
+    <label title="Normal">
+        <input type="radio" name="animo" id="normal" value="normal">
+        <span class="normal"><img src="img/emoji-neutral.svg" alt="Normal"></span>
+        <span class="seleccionado"><img src="img/emoji-neutral-fill.svg" alt="Normal seleccionado"></span>
+    </label>
+    <label title="Neutral">
+        <input type="radio" name="animo" id="neutral" value="neutral" checked>
+        <span class="normal"><img src="img/emoji-expressionless.svg" alt="Neutral"></span>
+        <span class="seleccionado"><img src="img/emoji-expressionless-fill.svg" alt="Neutral seleccionado"></span>
+    </label>
+    <label title="Triste">
+        <input type="radio" name="animo" id="triste" value="triste">
+        <span class="normal"><img src="img/emoji-frown.svg" alt="Triste"></span>
+        <span class="seleccionado"><img src="img/emoji-frown-fill.svg" alt="Triste seleccionado"></span>
+    </label>
+    <label title="Muy triste">
+        <input type="radio" name="animo" id="muyTriste" value="muyTriste">
+        <span class="normal"><img src="img/emoji-tear.svg" alt="Muy triste"></span>
+        <span class="seleccionado"><img src="img/emoji-tear-fill.svg" alt="Muy triste seleccionado"></span>
+    </label>
+    <label title="Enojado">
+        <input type="radio" name="animo" id="enojado" value="enojado">
+        <span class="normal"><img src="img/emoji-angry.svg" alt="Enojado"></span>
+        <span class="seleccionado"><img src="img/emoji-angry-fill.svg" alt="Enojado seleccionado"></span>
+    </label>
+</div>
 
-<br>
+<textarea placeholder="Notas... ¿Tuviste antojos?" id="notas"></textarea>
 
-<!--Botón brillante-->
-<button>Glowing</button> 
-
-<br>
-
-<input type="checkbox"/>
-<ul>
-    <li>aa</li>
-    <li>aa</li>
-    <li>aa</li>
-    <li>aa</li>
-    <li>aa</li>
-</ul>
-
-
-
-
-
+    
 
 
 </body>
-
 </html>
